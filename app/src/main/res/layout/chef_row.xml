@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="model"
+            type="com.motaweron_apps.ektfaa.model.UserModel.Data" />
+        <import type="android.view.View"/>
+    </data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp"
+        app:contentPadding="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <FrameLayout
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/image_frame"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    user_image="@{model.logo}"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@color/trans_black2"
+                    android:visibility='@{model.status.equals("busy")?View.VISIBLE:(model.status.equals("close")?View.VISIBLE:View.GONE),default=gone}'
+                    android:layout_margin="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:visibility='@{model.status.equals("busy")?View.VISIBLE:(model.status.equals("close")?View.VISIBLE:View.GONE),default=gone}'
+                    android:text='@{model.status.equals("busy")?@string/busy:(model.status.equals("close")?@string/close:"")}'
+                    />
+
+            </FrameLayout>
+
+            <androidx.legacy.widget.Space
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:text="@{model.name}"
+                        android:textAlignment="viewStart"
+                        />
+                    <ImageView
+                        android:id="@+id/imageFave"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@{model.user_market_favourite==null?@drawable/ic_empty_heart:@drawable/ic_fill_heart}"
+                        android:padding="3dp"
+                        android:visibility="invisible"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:gravity="start"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="8dp"
+                    android:text="@{model.user_basic_department.basic_department_fk.title}"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+
+                    >
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_pin"
+                        app:tint="@color/gray11"
+                        android:padding="3dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:gravity="start"
+                        android:textColor="@color/gray9"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text='@{model.area.title+"-"+model.address}'
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

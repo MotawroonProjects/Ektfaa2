@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ektfaa/app/src/main/res/drawable/ic_edit_account.xml" value="0.15520833333333334" />
+        <entry key="..\:/Ektfaa/app/src/main/res/drawable/ic_world.xml" value="0.14427083333333332" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/activity_add_product.xml" value="0.14270833333333333" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/activity_family_detials.xml" value="0.18518518518518517" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/activity_product_details.xml" value="0.14270833333333333" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/activity_verification_code.xml" value="0.1" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/family_product_row.xml" value="0.18518518518518517" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/fragment_more.xml" value="0.1390625" />
+        <entry key="..\:/Ektfaa/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/checkbok2.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/circle_primary.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/gap_stroke_white.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_add2.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_camera.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_circle_add_gray.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_map_pin.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_more.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_send.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/ic_slider1.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/msg_right.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/rounded_color14.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/rounded_color15.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/rounded_gray5.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/rounded_second.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/rounded_trans_white.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/small_rounded_gray.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/stroke_line.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/drawable/tab_indicator.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_about_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_add_ads.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_add_product.xml" value="0.22" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_advertise_with_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalet_add_ad.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalet_add_ads.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalet_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalets.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalets_detials.xml" value="0.2" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chalets_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chat.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_chefs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_choose_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_client_offer_details.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_contact_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_delegate_add_offer.xml" value="0.22" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_delegate_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_delegets.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_driver_coming_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_driver_current_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_driver_filter.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_driver_previous_order.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_family_detials.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_family_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_intro_slider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_language.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_locations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_open_your_work.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_packages.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_product_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_productive_families.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_send_order.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_store_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_sub_category_area.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_user_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/activity_verification_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/attr_details_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/cancel_reason_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/car_type_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/category_loader.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chalet_ad_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chalets_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_image_left_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_image_right_row.xml" value="0.22" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_location_left.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_location_right.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_msg_left.xml" value="0.75" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chat_msg_right.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/chef_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/coming_order_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/current_order_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/deleget_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/family_add_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/family_category_add_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/family_category_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/family_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/fragment_intro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/fragment_more.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/fragment_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/intro_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/layout_driver_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/layout_not_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/layout_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/location_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/map_add_offer_location_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/new_order_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/order_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/package_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/product_gallery_image_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/property_field.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/slider_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/spinner_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/store_category_add_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/store_category_row.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/store_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/Projects/Ektfaa/app/src/main/res/layout/subdept_check_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/drawable/gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/drawable/rounded_color15.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/activity_chalet_filter.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/activity_chalets.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/activity_chefs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/activity_sub_category_area.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/chef_row.xml" value="0.5826612903225806" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/location_row.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/Ektfaa/app/src/main/res/layout/subdept_check_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_chefs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_choose_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_delegate_signup.xml" value="0.33" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_family_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_locations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_login.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/activity_productive_families.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/chef_row.xml" value="0.25" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/layout_driver_profile.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/layout_family_profile.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/location_row.xml" value="0.5" />
+        <entry key="..\:/Users/Arb Develpor/Desktop/emad/work/app/src/main/res/layout/spinner_status.xml" value="0.12771739130434784" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/circle_white.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/custom_bg.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/green_stroke.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_box.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_call.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_call3.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_circle_add.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_circle_add_gray.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_close.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_delete.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_dept.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_edit_account.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_gallery.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_green_plus.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_info3.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_left_arrow.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_load_avatar.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_mail.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_map_pin.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_nav_home.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_nav_user.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_red_whats.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_slider1.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_slider3.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/ic_wallet.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/line.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/pin_view_item.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/rounded_descrete.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/rounded_primary.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/small_rounded_white.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/spinner_icon.xml" value="0.2169230769230769" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/tab_intro_slider.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/drawable/tab_lang_indicator.xml" value="0.2203125" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_about_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_add_product.xml" value="0.18055555555555555" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_advertise_with_us.xml" value="0.16" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_chalets_detials.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_chalets_signup.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_choose_user_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_contact_us.xml" value="0.18611111111111112" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_delegate_signup.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_family_detials.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_family_signup.xml" value="0.33" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_intro_slider.xml" value="0.20092592592592592" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_notification.xml" value="0.22" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_open_your_work.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_packages.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_productive_families.xml" value="0.17592592592592593" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_store_products.xml" value="0.18055555555555555" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_user_sign_up.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/activity_verification_code.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/category_image_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/family_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/fragment_home.xml" value="0.19184430027803523" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/fragment_more.xml" value="0.19166666666666668" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/fragment_orders.xml" value="0.19166666666666668" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/fragment_profile.xml" value="0.19166666666666668" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/gallery_image_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/intro_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/layout_chalet_profile.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/layout_driver_profile.xml" value="0.33" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/layout_family_profile.xml" value="0.25" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/layout_user_profile.xml" value="0.22" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/not_sign_in_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/notification_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/order_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/package_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/place_holder_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/property_field.xml" value="0.18055555555555555" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/store_add_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/store_category_add_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/store_category_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/store_product_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/toolbar.xml" value="0.1814814814814815" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/layout/user_layout_profile.xml" value="0.33" />
+        <entry key="..\:/android/Projects/Ektfaa/app/src/main/res/menu/menu.xml" value="0.19166666666666668" />
+        <entry key="..\:/flutter_apps/Ektfaa/app/src/main/res/layout/fragment_home.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="model"
+            type="com.motaweron_apps.ektfaa.model.DepartmentModel.BasicDepartmentFk" />
+
+    </data>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:buttonTint="@color/colorPrimary"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="@{model.title}"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:checked="@{model.selected?true:false}"
+        />
+</layout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+
+
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+                <FrameLayout
+                    android:id="@+id/flNotSignIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+                    <include
+                        android:id="@+id/layoutNotSignIn"
+                        layout="@layout/layout_not_sign_in"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+                    <include
+                        android:id="@+id/layoutUser"
+                        layout="@layout/layout_user_profile"
+                        />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/flDriver"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+                    <include
+                        android:id="@+id/layoutDriver"
+                        layout="@layout/layout_driver_profile"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flFamily"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+                    <include
+                        android:id="@+id/layoutFamily"
+                        layout="@layout/layout_family_profile"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flChalet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+                    <include
+                        android:id="@+id/layoutChalet"
+                        layout="@layout/layout_chalet_profile"
+                        />
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/llLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_margin="16dp"
+                >
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_logout"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/gray17"
+                    android:text="@string/logout"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</layout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.motaweron_apps.ektfaa.model.DepartmentModel.BasicDepartmentFk" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@{model.selected?@color/colorPrimary:@color/white}"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="3dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:maxEms="12"
+                android:singleLine="true"
+                android:text="@{model.title}"
+                android:textColor="@{model.selected?@color/white:@color/black}"
+                android:textSize="15sp"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/llAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageEdit"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/circle_white"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_edit_account"
+                    app:tint="@color/gray15" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="5dp"
+                    android:layout_height="0dp" />
+
+                <ImageView
+                    android:id="@+id/imageDelete"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/circle_white"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_delete"
+                    app:tint="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

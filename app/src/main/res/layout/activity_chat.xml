@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+    <data>
+        <variable
+            name="lang"
+            type="String" />
+
+        <variable
+            name="name"
+            type="String" />
+        <variable
+            name="image"
+            type="String" />
+
+
+        <variable
+            name="model"
+            type="com.motaweron_apps.ektfaa.model.SingleOrderModel.Data" />
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:id="@+id/llData"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:visibility="visible"
+           >
+           <include
+               android:id="@+id/toolbar"
+               layout="@layout/toolbar"
+               />
+           <LinearLayout
+               android:id="@+id/llDriverData"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="@color/color16"
+               android:visibility="gone"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingStart="16dp"
+                   android:paddingEnd="16dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="5dp"
+                   android:gravity="center_vertical"
+                   >
+                   <de.hdodenhof.circleimageview.CircleImageView
+
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       user_image="@{image}"
+                       />
+                   <androidx.legacy.widget.Space
+                       android:layout_width="8dp"
+                       android:layout_height="0dp"
+                       />
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="wrap_content"
+                       android:singleLine="true"
+                       android:textColor="@color/black"
+                       android:textSize="15sp"
+                       android:text="@{name}"
+                       />
+                   <androidx.legacy.widget.Space
+                       android:layout_width="8dp"
+                       android:layout_height="0dp"
+                       />
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal"
+                       android:gravity="center_vertical"
+
+                       >
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:singleLine="true"
+                           android:textColor="@color/black"
+                           android:textSize="12sp"
+                           android:text="@string/order_num"
+                           />
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:singleLine="true"
+                           android:textColor="@color/black"
+                           android:textSize="15sp"
+                           android:text='@{"#"+model.order.id}'
+                           android:layout_marginStart="8dp"
+                           android:layout_marginEnd="8dp"
+                           />
+
+                   </LinearLayout>
+
+
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center_vertical"
+                   android:paddingStart="16dp"
+                   android:paddingEnd="16dp"
+                   android:layout_marginBottom="5dp"
+
+                   >
+                   <Button
+                       android:id="@+id/btnDelivered"
+                       android:layout_width="wrap_content"
+                       android:layout_height="35dp"
+                       android:background="@drawable/rounded_primary"
+                       android:textColor="@color/white"
+                       android:textSize="12sp"
+                       android:text="@string/delivered"
+                       android:paddingStart="8dp"
+                       android:paddingEnd="8dp"
+                       android:visibility="gone"
+
+                       />
+
+                   <androidx.legacy.widget.Space
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:singleLine="true"
+                       android:textColor="@color/black"
+                       android:textSize="12sp"
+                       android:text="@string/delivery_cost"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:singleLine="true"
+                       android:textColor="@color/colorPrimary"
+                       android:textSize="15sp"
+                       android:textStyle="bold"
+                       android:text='@{model.order.order_driver_offer.delivery_value+" "+@string/ryal}'
+                       android:layout_marginStart="8dp"
+                       android:layout_marginEnd="8dp"
+
+                       />
+               </LinearLayout>
+
+
+           </LinearLayout>
+           <FrameLayout
+               android:id="@+id/flOrderCanceled"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               >
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:background="@color/color_red"
+                   android:alpha=".3"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textColor="@color/white"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   android:text="@string/order_canceled"
+                   />
+           </FrameLayout>
+           <FrameLayout
+               android:id="@+id/flOrderDelivered"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               >
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:background="@color/green"
+                   android:alpha=".4"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textColor="@color/white"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   android:text="@string/order_delivered"
+                   />
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               >
+               <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/recView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="bottom"
+                   />
+           </FrameLayout>
+
+           <LinearLayout
+               android:id="@+id/llMsg"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+
+               >
+               <androidx.legacy.widget.Space
+                   android:layout_width="12dp"
+                   android:layout_height="0dp"
+                   />
+
+               <ImageView
+                   android:id="@+id/imageCamera"
+                   android:layout_width="28dp"
+                   android:layout_height="28dp"
+                   android:src="@drawable/ic_camera"
+                   app:tint="@color/color7"
+                   />
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   app:cardElevation="2dp"
+                   app:cardCornerRadius="25dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginEnd="12dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_marginTop="5dp"
+                   >
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="horizontal"
+                       android:layout_gravity="center_vertical"
+                       android:gravity="center_vertical"
+                       >
+
+                       <EditText
+                           android:id="@+id/edtMsg"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:minHeight="50dp"
+                           android:layout_weight="1"
+                           android:textColor="@color/black"
+                           android:textSize="14sp"
+                           android:background="@color/transparent"
+                           android:paddingStart="10dp"
+                           android:paddingEnd="10dp"
+                           android:maxLines="4"
+                           android:inputType="textMultiLine"
+                           android:hint="@string/type_a_message"
+                           />
+
+                       <ImageView
+                           android:id="@+id/btnSend"
+                           android:layout_width="28dp"
+                           android:layout_height="28dp"
+                           android:src="@drawable/ic_send"
+                           app:tint="@color/colorPrimary"
+                           android:layout_marginStart="12dp"
+                           android:layout_marginEnd="12dp"
+                           android:rotation='@{lang.equals("ar")?180:0}'
+                           />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+
+
+
+               <ImageView
+                   android:id="@+id/imageMenu"
+                   android:layout_width="28dp"
+                   android:layout_height="28dp"
+                   android:src="@drawable/ic_more"
+                   app:tint="@color/gray6"
+                   />
+               <androidx.legacy.widget.Space
+                   android:layout_width="12dp"
+                   android:layout_height="0dp"
+                   />
+           </LinearLayout>
+       </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/flSheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/trans_black"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            >
+            <FrameLayout
+                android:id="@+id/flMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/tvMenuCancelOrder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:text="@string/cancel_order"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@drawable/stroke_line"
+                        android:layerType="software"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:id="@+id/tvMenuShareLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:text="@string/share_location"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@drawable/stroke_line"
+                        android:layerType="software"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnMenuCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_primary"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:text="@string/cancel2"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:minWidth="120dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        />
+
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/flCancelReasons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="16dp"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:text="@string/delete_order"
+                        />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recViewReason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray1"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textColor="@color/color_red"
+                        android:textSize="15sp"
+                        android:text="@string/cancel2"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/flAlert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="@string/delete_order"
+                        android:textColor="@color/black"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@drawable/stroke_line"
+                        android:layerType="software"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:id="@+id/tvAlertDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:text="@string/delete"
+                        />
+
+
+                    <Button
+                        android:id="@+id/btnAlertCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_primary"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:text="@string/cancel2"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:minWidth="120dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/flLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginBottom="36dp"
+                    android:orientation="vertical"
+                    >
+                    <ProgressBar
+                        android:id="@+id/progBarLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tvlocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:text="@string/getting_location"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+
+        <ProgressBar
+            android:id="@+id/progBarData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+</layout>
