@@ -16,6 +16,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9a755c09281e17de0a4cb590cae57c20/transformed/jetified-DotLoader-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a755c09281e17de0a4cb590cae57c20/transformed/jetified-DotLoader-1.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a755c09281e17de0a4cb590cae57c20/transformed/jetified-DotLoader-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f818b154e7c4b7d2c512ecacee85040e/transformed/jetified-DotLoader-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f818b154e7c4b7d2c512ecacee85040e/transformed/jetified-DotLoader-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f818b154e7c4b7d2c512ecacee85040e/transformed/jetified-DotLoader-1.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

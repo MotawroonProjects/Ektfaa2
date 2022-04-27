@@ -10,6 +10,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ethanhua/skeleton/1.1.2/d3fec33764df631ff1972c5003f539ea94f6c55c/skeleton-1.1.2-javadoc.jar!/" />
