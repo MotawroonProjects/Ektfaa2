@@ -1,27 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.alimuzaffar.lib:pinentryedittext:1.3.10@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0a1283b4f51f6d3c1f7da08fdbd9480c/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a1283b4f51f6d3c1f7da08fdbd9480c/transformed/jetified-pinentryedittext-1.3.10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a1283b4f51f6d3c1f7da08fdbd9480c/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0f3aff571fea55a868d567bdb69a3cbb/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0f3aff571fea55a868d567bdb69a3cbb/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0f3aff571fea55a868d567bdb69a3cbb/transformed/jetified-pinentryedittext-1.3.10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6273cb3e4ce88b5b45a85cfa5f902e7e/transformed/jetified-pinentryedittext-1.3.10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6273cb3e4ce88b5b45a85cfa5f902e7e/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6273cb3e4ce88b5b45a85cfa5f902e7e/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7225dd1bd51bd680d918e25d5af48fcf/transformed/jetified-pinentryedittext-1.3.10/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7225dd1bd51bd680d918e25d5af48fcf/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7225dd1bd51bd680d918e25d5af48fcf/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/37f59311a58d65f408a1c232e7027013/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/37f59311a58d65f408a1c232e7027013/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/37f59311a58d65f408a1c232e7027013/transformed/jetified-pinentryedittext-1.3.10/res" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/a2abdaf4bee0d5e13abb1e9fe7d35cf9/transformed/jetified-pinentryedittext-1.3.10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/a2abdaf4bee0d5e13abb1e9fe7d35cf9/transformed/jetified-pinentryedittext-1.3.10/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/a2abdaf4bee0d5e13abb1e9fe7d35cf9/transformed/jetified-pinentryedittext-1.3.10/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alimuzaffar.lib/pinentryedittext/1.3.10/a87827c290f0bf4f3a60e5684fc968efd5fbf8b5/pinentryedittext-1.3.10-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/com.alimuzaffar.lib/pinentryedittext/1.3.10/a87827c290f0bf4f3a60e5684fc968efd5fbf8b5/pinentryedittext-1.3.10-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alimuzaffar.lib/pinentryedittext/1.3.10/5768b2e76cf22eec90945f72a1bfdbe93ef6a160/pinentryedittext-1.3.10-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/com.alimuzaffar.lib/pinentryedittext/1.3.10/5768b2e76cf22eec90945f72a1bfdbe93ef6a160/pinentryedittext-1.3.10-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

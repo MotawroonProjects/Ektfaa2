@@ -1,27 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.ethanhua:skeleton:1.1.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/faec525b08e8a2392ca0f6bd9615a633/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/faec525b08e8a2392ca0f6bd9615a633/transformed/jetified-skeleton-1.1.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/faec525b08e8a2392ca0f6bd9615a633/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b6c2e6c6fee21745342738b7ffa8495f/transformed/jetified-skeleton-1.1.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b6c2e6c6fee21745342738b7ffa8495f/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b6c2e6c6fee21745342738b7ffa8495f/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/59d6653bb86f2f2147704986ced44857/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d0625be7cdf027b4daba8d6fddef0404/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4f91193e7e59636256fe3f866582b1f9/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f91193e7e59636256fe3f866582b1f9/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f91193e7e59636256fe3f866582b1f9/transformed/jetified-skeleton-1.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/df95c6adb9c236c9058e90a1666d8d28/transformed/jetified-skeleton-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/df95c6adb9c236c9058e90a1666d8d28/transformed/jetified-skeleton-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/df95c6adb9c236c9058e90a1666d8d28/transformed/jetified-skeleton-1.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ethanhua/skeleton/1.1.2/d3fec33764df631ff1972c5003f539ea94f6c55c/skeleton-1.1.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/com.ethanhua/skeleton/1.1.2/d3fec33764df631ff1972c5003f539ea94f6c55c/skeleton-1.1.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ethanhua/skeleton/1.1.2/de52eeaf1b4f59ef8d904b9a1fe86c2b8c6065e2/skeleton-1.1.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/com.ethanhua/skeleton/1.1.2/de52eeaf1b4f59ef8d904b9a1fe86c2b8c6065e2/skeleton-1.1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
