@@ -5,6 +5,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cdf2b23f8f81d36de04c186b261d0c77/transformed/jetified-roundedimageview-2.3.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0eb099e225ac34422eaa2aa738488d13/transformed/jetified-roundedimageview-2.3.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6c3b7184cf1f9c94c6ea4957e02a2dc3/transformed/jetified-roundedimageview-2.3.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/40aaab462c817198232bb87e0e5c4402/transformed/jetified-roundedimageview-2.3.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e2b0308f7cea6063e4d7b2e681738181/transformed/jetified-roundedimageview-2.3.0/jars/classes.jar!/" />
@@ -19,6 +20,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c3b7184cf1f9c94c6ea4957e02a2dc3/transformed/jetified-roundedimageview-2.3.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c3b7184cf1f9c94c6ea4957e02a2dc3/transformed/jetified-roundedimageview-2.3.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6c3b7184cf1f9c94c6ea4957e02a2dc3/transformed/jetified-roundedimageview-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/40aaab462c817198232bb87e0e5c4402/transformed/jetified-roundedimageview-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/40aaab462c817198232bb87e0e5c4402/transformed/jetified-roundedimageview-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/40aaab462c817198232bb87e0e5c4402/transformed/jetified-roundedimageview-2.3.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.makeramen/roundedimageview/2.3.0/30a0f5d140791f4ade3ac418dddaf0d59ca694cc/roundedimageview-2.3.0-javadoc.jar!/" />

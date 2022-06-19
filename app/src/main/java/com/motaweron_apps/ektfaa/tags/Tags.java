@@ -2,7 +2,7 @@ package com.motaweron_apps.ektfaa.tags;
 
 public class Tags {
 
-    public static String base_url = "http://ektifaa-sa.com/";
+    public static String base_url = "http://ektifaa-sa.info/";
     public static final int not_id = 3254;
     public static final String not_tag = "ektf_not";
 
